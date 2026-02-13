@@ -19,65 +19,26 @@ const CONFIG = {
 		Misc: ['💍', '💐', '🌹', '💌', '❤️‍🔥']      // Misc emojis 
     },
 
-    // Questions and answers
+ // Questions and answers
     // Customize each question and its possible responses
-questions: {
-    first: {
-        text: "Do you like me ",
-        yesBtn: "Yes",
-        noBtn: "No",
-        secretAnswer: "I fucking love you!!! ❤️"
+    questions: {
+        first: {
+            text: "Do you like me?",                                    // First interaction
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "No",                                               // Text for "No" button
+            secretAnswer: "I don't like you, I love you stupid! ❤️"           // Secret hover message
+        },
+        second: {
+            text: "How much do you love me?",                          // For the love meter
+            startText: "This much!",                                   // Text before the percentage
+            nextBtn: "Next ❤️"                                         // Text for the next button
+        },
+        third: {
+            text: "Will you be my Valentine this year and for the years to come? 🌹", // The big question!
+            yesBtn: "Yes!",                                             // Text for "Yes" button
+            noBtn: "No"                                                 // Text for "No" button
+        }
     },
-    second: {
-        text: "How much do you love me?",
-        startText: "This much!",
-        nextBtn: "Next ❤️"
-    },
-    third: {
-        text: "Will you be my Valentine on February 14th, 2026? 🌹",
-        yesBtn: "Yes!",
-        noBtn: "No"
-    },
-
-    fourth: {
-        text: "Would you go on a late night drive smoking some J's and listening to some nice music with some rum and coke? ",
-        yesBtn: "Of course!",
-        noBtn: "Only if you’re paying 😜"
-    },
-
-    fifth: {
-        text: "Who’s your favorite person in the world?",
-        option1: "You",
-        option2: "Still you",
-        option3: "Always you ❤️"
-    },
-
-    sixth: {
-        text: "If we were in a rom-com, what would we be?",
-        option1: "Best friends to lovers",
-        option2: "Enemies to lovers",
-        option3: "Soulmates from day one"
-    },
-
-    seventh: {
-        text: "Can I keep you forever? 🥺",
-        yesBtn: "Forever and ever",
-        noBtn: "You already have me ❤️"
-    },
-
-    eighth: {
-        text: "What should we do on our Valentine’s date?",
-        option1: "Candlelight dinner",
-        option2: "Movie night",
-        option3: "Long drive + music"
-    },
-
-    final: {
-        text: "Okay last question… Do you promise to stay with me through every up and down? 💍",
-        yesBtn: "I promise ❤️",
-        noBtn: "Come here first 😌"
-    }
-}
 
     // Love meter messages
     // They show up depending on how far they slide the meter
