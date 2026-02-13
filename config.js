@@ -52,7 +52,7 @@ const CONFIG = {
     celebration: {
         title: "I Got You for LIFE through thick and thin!!! Now comee here and....",
         message: "Lets fucking go to LADAKH this summer.",
-        emojis: "💗💞💟💓💘🤍🩷🧸🫶✨🌙⭐🌷🦋"  // These will bounce around
+        emojis: "💗💞💟💓💘🤍🩷🧸🫶✨🌙⭐🌷"  // These will bounce around
     },
 
     // Color scheme for the website
