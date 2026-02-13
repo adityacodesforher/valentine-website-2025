@@ -50,8 +50,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Thank you, I couldn't have asked for anything else!! 🎉💝💖💝💓",
-        message: "Lets go to LADAKH this summer.",
+        title: "I Got You for LIFE through thick and thin!!! Now comee here and....",
+        message: "Lets fucking go to LADAKH this summer.",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
